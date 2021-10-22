@@ -3,7 +3,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Techlanders-aws-ec2-instance3-v33"
+    Name = "NewTechlanders-aws-ec2"
     Env = "Dev"
   }
 }
